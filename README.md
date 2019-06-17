@@ -87,7 +87,7 @@ ozakE+8p06BpxegR4BR3FMHf6p+0jQxUEAkAyb/mVgm66TyghDGC6/YkiKoZptXQ
   
   ```
   
-  ### WHAT IS DIGITAL CERTIFICATE
+  ### WHAT IS DIGITAL CERTIFICATE / PUBLIC KEY CERTIFICATE
   
   ```
   - First sender creates the pair of keys ,Public key and Private Key
@@ -110,11 +110,16 @@ ozakE+8p06BpxegR4BR3FMHf6p+0jQxUEAkAyb/mVgm66TyghDGC6/YkiKoZptXQ
       - 2.Owner's public key and its expiration date.
       - 3.Certificate issuer name.
       - 4.Certificate issues's digital signature.
+  
+ Digital Certificate contains
  
+    1.Senders ID information.
+    2.Senders Public Key.
+    3.CA Information .
+    4.All the above (1,2,3) signed by the CA's Private Key .
+    5.Ceritificate Validity Period.
   
-  
-  
-  
-  
+With the above all the information CA Trusted Thrid party creates the Public Key Certificate.
+
   
   ```
